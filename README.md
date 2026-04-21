@@ -1,6 +1,6 @@
 # Executive Summary:
 
-This project focuses on analyzing the payment funnel of a Tech Company to determine the root cause and potential solutions. A significant number of subscriptions remain unpaid which indicates potential friction in the online payment process and has largely impacted the revenue negatively. This analysis identifies pain points within the payment portal and provides actionable recommendations to improve the conversion rate of successful payments using SQL and visualizations in a HEX Data Science Notebook to build a product funnel analysis.
+This project analyzes a SaaS subscription payment funnel to identify conversion drop-offs and optimization opportunities. A significant number of subscriptions remain unpaid which indicates potential friction in the online payment process and has largely impacted the revenue negatively. This analysis identifies pain points within the payment portal and provides actionable recommendations to improve the conversion rate of successful payments using SQL and visualizations in a HEX Data Science Notebook to build a product funnel analysis.
 
 Using SQL and data visualizations, I extracted and analyzed subscription data to evaluate the payment funnel. I leveraged Common Table Expressions (CTEs) and aggregate functions to measure conversion rates across each stage, and used CASE statements to categorize users based on their progress through the funnel. The analysis revealed that the greatest revenue opportunity lies in increasing the number of users who successfully complete the payment process along the “happy path.” 
 
@@ -28,43 +28,38 @@ The goal of this analysis is to identify where users are dropping off in the pay
 
 # Methodology:
 
-1) SQL query that extracts, cleans, and transforms the data from the database.
+1) Developed SQL queries to extract, clean, and transform raw subscription data, enabling structured analysis of the payment funnel.
 
-2) Build a dashboard in HEX Data Science Notebook that tracks the number of subscriptions in each payment funnel stage.
+2) Built a funnel tracking dashboard in Hex to visualize subscription counts across payment stages.
 
-3) N/A A funnel analysis in Python to simulate changes and determine the best areas of opportunity.
+3) Mapped the end-to-end subscription payment funnel using Lucidchart to define user flow and key conversion stages.
 
 **Exploratory Data Analysis (EDA)**
 
-Conducted initial data exploration using SQL to understand the structure and quality of the subscription dataset. This included checking for missing values, duplicates, and inconsistencies in key fields such as subscription status and payment outcomes. High-level analysis was performed to identify overall trends and establish a baseline understanding of user behavior and payment performance.
+Conducted initial data exploration using SQL to understand the structure and quality of the subscription dataset. This included checking for missing values, duplicates, and inconsistencies in the subscription dataset. Queried subscription IDs across both successful (‘happy path’) and failed (‘error path’) journeys to reconstruct end-to-end user flows and understand payment behavior. Performed high-level analysis to uncover initial trends and establish a baseline understanding of user engagement and payment performance.
 
 **Product Funnel Analysis**
 
-Defined the key stages of the payment funnel, from checkout initiation to successful subscription payment. Used SQL techniques, including Common Table Expressions (CTEs) and aggregate functions, to calculate conversion rates at each stage. CASE statements were applied to categorize users based on their progress through the funnel. Drop-off rates were measured to identify critical friction points, and further segmentation was performed to analyze root causes such as payment errors and user behavior.
+Defined the key stages of the payment funnel, from checkout initiation to successful subscription payment. Used SQL techniques, including Common Table Expressions (CTEs) and aggregate functions, to calculate conversion rates at each stage. CASE statements were applied to categorize users based on their progress through the funnel. Drop-off rates were measured to identify critical friction points, and further segmentation was performed to analyze root causes such as payment errors and user behavior. Computed conversion rates and workflow conversion rates to develop a comprehensive understanding of user flow and payment performance across the funnel.
 
 **Data Visualization**
 
-Developed visualizations to effectively communicate insights and highlight key findings. Bar charts were used to compare subscriptions with and without payment errors, while funnel visualizations illustrated conversion rates across each stage of the payment process. Dashboards were created in Microsoft Power BI to present insights in a clear, actionable format for business stakeholders.
+Developed visualizations to effectively communicate insights and highlight key findings. Bar charts were used to compare subscriptions with and without payment errors, while funnel visualizations illustrated conversion rates across each stage of the payment process. Built line charts to analyze trends in subscription flow across funnel stages over time, identifying patterns in user progression and drop-off behavior. Dashboards were created in Hex Data Science Notebook to present insights in a clear, actionable format for business stakeholders.
 
 
-# Skills:
+# Skills & Tools Used:
 
-SQL: CTEs, Joins, Case, aggregate functions
+**SQL:** CTEs, JOINs, CASE statements, aggregate functions, and subqueries for data extraction, transformation, and funnel analysis
 
-Power BI: Dax, writing functions, ETL, calculated columns, data visualization, data modeling (N/A)
+**Data Wrangling & Cleaning:** Processed raw subscription data by handling missing values, duplicates, and inconsistencies to ensure data quality
 
-Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics (N/A)
+**Data Modeling:** Designed data flow and structured subscription funnel stages using Lucidchart
 
----
-SQL
-CTEs, CASE, subqueries, window functions
-Note: Window functions are in bonus code solution
-Data visualization
-Data Wrangling
-Data Cleaning
-Data Science Notebook
-Snowflake Data warehouse
-If you used other skills on your own (Python, Statistics, etc.) add them here!
+**Data Visualization:** Built bar and line charts to analyze trends, funnel progression, and user behavior patterns
+
+**Data Analysis Notebook:** Performed exploratory analysis and dashboarding using Hex
+
+**Data Warehouse:** Queried and analyzed structured datasets stored in Snowflake
 
 
 # Results & Business Recommendation:
