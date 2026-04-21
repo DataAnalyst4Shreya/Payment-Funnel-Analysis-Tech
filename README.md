@@ -23,7 +23,8 @@ Completed orders are essential for this Tech Company as they directly drive subs
 
 The goal of this analysis is to identify where users are dropping off in the payment funnel, uncover the underlying causes of conversion loss. These insights will inform targeted improvements to the payment experience aimed at increasing the subscription conversion rate (% of subscriptions that are successfully converting to a paid subscription) and ensuring majority users successfully complete the “happy path” from initiation to paid subscription.
 
-<img width="667" height="327" alt="image" src="https://github.com/user-attachments/assets/00fa0a6f-1498-4f21-a234-fe61036e22ba" />
+
+<img width="803" height="326" alt="image" src="https://github.com/user-attachments/assets/0e269df5-2a29-4b49-b2d8-f32e9db565fc" />
 
 
 
