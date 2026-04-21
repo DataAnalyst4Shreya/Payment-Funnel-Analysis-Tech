@@ -23,7 +23,8 @@ Completed orders are essential for this Tech Company as they directly drive subs
 
 The goal of this analysis is to identify where users are dropping off in the payment funnel, uncover the underlying causes of conversion loss. These insights will inform targeted improvements to the payment experience aimed at increasing the subscription conversion rate (% of subscriptions that are successfully converting to a paid subscription) and ensuring majority users successfully complete the “happy path” from initiation to paid subscription.
 
-<img width="803" height="326" alt="Payment_Funnel_Analysis_Final" src="https://github.com/user-attachments/assets/7dd5e431-9bb1-4f41-a38c-bb7a15547397" />
+<img width="64" height="98" alt="image" src="https://github.com/user-attachments/assets/6a45a2fe-c8b3-4823-9cb1-ffc8174dc966" />
+
 
 
 # Methodology:
@@ -33,6 +34,18 @@ The goal of this analysis is to identify where users are dropping off in the pay
 2) Build a dashboard in HEX Data Science Notebook that tracks the number of subscriptions in each payment funnel stage.
 
 3) N/A A funnel analysis in Python to simulate changes and determine the best areas of opportunity.
+
+**Exploratory Data Analysis (EDA)**
+
+Conducted initial data exploration using SQL to understand the structure and quality of the subscription dataset. This included checking for missing values, duplicates, and inconsistencies in key fields such as subscription status and payment outcomes. High-level analysis was performed to identify overall trends and establish a baseline understanding of user behavior and payment performance.
+
+**Product Funnel Analysis**
+
+Defined the key stages of the payment funnel, from checkout initiation to successful subscription payment. Used SQL techniques, including Common Table Expressions (CTEs) and aggregate functions, to calculate conversion rates at each stage. CASE statements were applied to categorize users based on their progress through the funnel. Drop-off rates were measured to identify critical friction points, and further segmentation was performed to analyze root causes such as payment errors and user behavior.
+
+**Data Visualization**
+
+Developed visualizations to effectively communicate insights and highlight key findings. Bar charts were used to compare subscriptions with and without payment errors, while funnel visualizations illustrated conversion rates across each stage of the payment process. Dashboards were created in Microsoft Power BI to present insights in a clear, actionable format for business stakeholders.
 
 
 # Skills:
