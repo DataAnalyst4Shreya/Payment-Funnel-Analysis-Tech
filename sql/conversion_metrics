@@ -1,1 +1,39 @@
 
+-- Conversation rate and workflow conversion rate analysis
+
+WITH max_status_reached AS
+(
+SELECT
+     subscription_id,
+     max(status_id) AS max_status
+FROM
+    public.payment_status_log
+GROUP BY
+    1
+)
+,
+payment_funnel_stages AS
+(
+SELECT
+     subs.subscription_id,
+     DATE_TRUNC('year',order_date) AS order_year,
+     current_payment_status,
+     max_status,
+     CASE WHEN max_status = 5 THEN 1 ELSE 0 END AS completed_payment,
+     CASE WHEN max_status IS NOT NULL THEN 1 ELSE 0 END AS started_payment
+FROM
+    public.subscriptions subs
+LEFT JOIN
+    max_status_reached m
+    ON subs.subscription_id = m.subscription_id
+)
+
+SELECT
+     SUM(completed_payment) AS num_subs_completed_payment,
+     SUM(started_payment) AS num_subs_started_payment,
+     COUNT(*) AS total_subs,
+     num_subs_completed_payment * 100/ total_subs AS conversion_rate,
+     num_subs_completed_payment * 100/ num_subs_started_payment AS workflow_completion_rate
+FROM
+    payment_funnel_stages;
+
