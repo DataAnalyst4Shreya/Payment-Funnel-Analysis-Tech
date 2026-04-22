@@ -1,8 +1,7 @@
 -- ===========================================================
 -- SUBSCRIPTION CONVERSION & WORKFLOW CONVERSION RATE ANALYSIS
 -- ===========================================================
-
--- Compute conversation rate and workflow conversion rate analysis to understand user behavior across payment funnel.
+-- Computing conversation rate and workflow conversion rate analysis to understand user behavior across payment funnel.
 
 WITH max_status_reached AS
 (
