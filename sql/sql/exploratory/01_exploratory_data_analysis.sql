@@ -83,7 +83,6 @@ ORDER BY
 -- =====================================
 -- 6. UPGRADE BEHAVIOR ANALYSIS
 -- =====================================
-
 -- Analysis of subscription upgrades
 
 SELECT
