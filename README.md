@@ -64,17 +64,58 @@ Developed visualizations to effectively communicate insights and highlight key f
 
 # Results & Business Recommendation:
 
-**Results:**
+### 1. Subscriptions By Payment Funnel Stages By Year
 
-<img width="578" height="365" alt="subscriptions by payment funnel by year" src="https://github.com/user-attachments/assets/31a0684b-0465-460e-8f8e-5061fdc07205" />
+<img width="578" height="365" alt="subscriptions by payment funnel by year" src="https://github.com/user-attachments/assets/a5fbb593-653f-49ad-a75e-07d751710080" />
+
+- This visualization shows how users progress through different funnel stages over the years.
+  
+- It helps understand the overall distribution and trend of user movement across stages each year.
+  
+- From 2029 until 2022, the company was working towards improving the Saas product before launching it for
+  payment subscriptions hence we don't see data for that period.
+  
+- The year-wise trend shows that majority of the subscribers have not started the payment process yet
+  
+- Line chart shows that the "Payment Processing Error with Vendor" has been happening consistently over the years.
 
 
+### 2. Subscriptions Without Payment Error vs Subscriptions with Payment Error
 
-- Majority users
+<img width="554" height="362" alt="Subscriptions Without Payment Error vs Subscriptions with Payment Error" src="https://github.com/user-attachments/assets/49b409c2-f36c-4827-8d5c-0cd4703a2a89" />
 
+- Bar Chart shows that 2,990,873 subscribtions experienced payment error.
+ 
+- The visual also shows that 623,191 subscriptions did not face any payment error.
+  
+- Visualization helps us understand that majority number of subscriptions faced error during payment process which is not good for user experience.
+  
 
+**Business Recommendations:**
 
+- Optimize payment gateway reliability to reduce transaction failures
+  
+- Reduce friction on the enter payment page by considering alternative payment methods to improve completion rate.
+  Eg: Apple Pay, Google Pay, or other payment methods that don't require entering in a credit card every time. This
+  will help reduce user errors due to incorrect payment info. Include options that have fewer steps and faster processing.
 
+- Reach out to the 3rd party payment processing vendor and inquire about the errors on their side and determine a
+  plan to reduce those in the future.
+
+- Work with the product manager to increase the number of subscriptions that are opening the payment portal and
+  attempting to pay. Since a large number of subscriptions aren't even going into the payment portal, we're losing a
+  large number of opportunities at the beginning of the funnel, so maybe we can set up payment reminders or have
+  customer service agent call them to encourage payment.
 
 
 # Next Steps:
+
+- Investigate the error breakdown further to determine which errors are most common (user errors or vendor errors).
+  
+- Find out why subscriptions aren't even starting the payment process. Is it a process issue on our side? Are customers forgetting?
+  
+- Conduct qualitative research by speaking to existing customers and potential customers can be a great way to get more insights about customer behavior to take corrective actions accordingly.
+
+- Market Intelligence to discover competitors having similar or related subscription based Saas products can also be useful to make improvements in the payment funnel stages. Understanding the payment funnel of other companies can be a great learning for taking future course of action.
+
+- Integrating current-day technology like AI in the user journey to encourage customers for converting into paid subscriptions.
