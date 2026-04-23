@@ -64,6 +64,14 @@ Developed visualizations to effectively communicate insights and highlight key f
 
 # Results & Business Recommendation:
 
+**Results:**
+
+<img width="578" height="365" alt="subscriptions by payment funnel by year" src="https://github.com/user-attachments/assets/31a0684b-0465-460e-8f8e-5061fdc07205" />
+
+
+
+- Majority users
+
 
 
 
