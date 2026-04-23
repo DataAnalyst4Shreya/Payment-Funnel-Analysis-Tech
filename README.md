@@ -84,11 +84,13 @@ Developed visualizations to effectively communicate insights and highlight key f
 
 <img width="554" height="362" alt="Subscriptions Without Payment Error vs Subscriptions with Payment Error" src="https://github.com/user-attachments/assets/49b409c2-f36c-4827-8d5c-0cd4703a2a89" />
 
+- The visualization showcases a grouped column chart consisting of using binary columns where 1 = no error and 0 = error.
+
 - Bar Chart shows that 2,990,873 subscribtions experienced payment error.
  
-- The visual also shows that 623,191 subscriptions did not face any payment error.
+- The data presentation also shows that 623,191 subscriptions did not face any payment error.
   
-- Visualization helps us understand that majority number of subscriptions faced error during payment process which is not good for user experience.
+- The visual analytics helps us understand that majority number of subscriptions faced error during payment process which is not good for user experience.
   
 
 **Business Recommendations:**
@@ -116,6 +118,6 @@ Developed visualizations to effectively communicate insights and highlight key f
   
 - Conduct qualitative research by speaking to existing customers and potential customers can be a great way to get more insights about customer behavior to take corrective actions accordingly.
 
-- Market Intelligence to discover competitors having similar or related subscription based Saas products can also be useful to make improvements in the payment funnel stages. Understanding the payment funnel of other companies can be a great learning for taking future course of action.
+- Perform Market Intelligence to discover competitors having similar or related subscription based Saas products can also be useful to make improvements in the payment funnel stages. Understanding the payment funnel of other companies can be a great learning for taking future course of action.
 
-- Integrating current-day technology like AI in the user journey to encourage customers for converting into paid subscriptions.
+- Integrate current-day technology like AI tools in the user journey to encourage customers for converting into paid subscriptions.
